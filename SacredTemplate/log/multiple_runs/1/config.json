@@ -1,0 +1,11 @@
+{
+  "params": {
+    "batch_size": 32,
+    "epochs": 1000,
+    "loss": "huber_loss",
+    "max_runs": 10,
+    "patience": 100,
+    "split": "multiple runs to check loss function random split"
+  },
+  "seed": 669289226
+}

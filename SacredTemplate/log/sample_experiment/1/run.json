@@ -1,0 +1,81 @@
+{
+  "artifacts": [
+    "test.txt"
+  ],
+  "command": "main",
+  "experiment": {
+    "base_dir": "D:\\TUK\\5. Winter 2021\\Project 1\\SacredTemplate",
+    "dependencies": [
+      "numpy==1.21.4",
+      "sacred==0.8.2"
+    ],
+    "mainfile": "src\\utils\\experiment.py",
+    "name": "sample_experiment",
+    "repositories": [],
+    "sources": [
+      [
+        "src\\utils\\experiment.py",
+        "_sources\\experiment_c5e73f0221ba8dfe7ff8cdedae799294.py"
+      ]
+    ]
+  },
+  "heartbeat": "2021-12-15T10:40:37.284533",
+  "host": {
+    "ENV": {},
+    "cpu": "Unknown",
+    "gpus": {
+      "driver_version": "471.41",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce GTX 1650",
+          "persistence_mode": false,
+          "total_memory": 4096
+        }
+      ]
+    },
+    "hostname": "DESKTOP-NEDGE1Q",
+    "os": [
+      "Windows",
+      "Windows-10-10.0.19044-SP0"
+    ],
+    "python_version": "3.10.1"
+  },
+  "meta": {
+    "command": "main",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [],
+      "help": false,
+      "with": false
+    }
+  },
+  "resources": [
+    [
+      "D:\\TUK\\5. Winter 2021\\Project 1\\SacredTemplate\\omniboard\\docker-compose.yml",
+      "D:\\TUK\\5. Winter 2021\\Project 1\\SacredTemplate\\log\\sample_experiment\\_resources\\docker-compose_d96937cd028b6d4773d7adc958ba7220.yml"
+    ]
+  ],
+  "result": null,
+  "start_time": "2021-12-15T10:40:37.216566",
+  "status": "COMPLETED",
+  "stop_time": "2021-12-15T10:40:37.284533"
+}
